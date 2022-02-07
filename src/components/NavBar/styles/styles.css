@@ -1,9 +1,10 @@
 nav {
   color: black;
-  /* position: absolute; */
-  height: 100%;
+  position: absolute;
+  top: 2rem;
+  height: 100px;
   width: 100vw;
-  margin-right: 3rem;
+  z-index: 100;
 }
 
 ul {
@@ -14,15 +15,19 @@ ul {
 
 li a {
   font-family: "Raleway", sans-serif;
-  font-weight: bold;
+  font-size: 1.15rem;
+  font-weight: bolder;
   padding: 10px;
   text-decoration: none;
-  color: black;
+  color: rgba(247, 246, 241, 255);
+  margin-right: 2.5rem;
 }
 
 li a:hover,
 li a:focus {
   color: rgba(255, 225, 132, 255);
+  text-decoration: underline;
+  outline: none;
 }
 
 @media only screen and (max-width: 500px) {
@@ -32,5 +37,10 @@ li a:focus {
 
   ul {
     justify-content: space-around;
+  }
+
+  li a {
+    margin-right: 0;
+    padding: 2rem;
   }
 }
