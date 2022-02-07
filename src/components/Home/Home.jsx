@@ -6,7 +6,7 @@ const Home = () => {
     <section class="home">
       <aside>
         <h1>Scott</h1>
-        <h1>Martel</h1>
+        <h1 class="last">Martel</h1>
       </aside>
       <img src={laptop} />
     </section>
