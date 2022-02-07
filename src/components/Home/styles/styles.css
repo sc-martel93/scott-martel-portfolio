@@ -18,9 +18,11 @@ aside {
   font-family: "Raleway", sans-serif;
 }
 
-.last {
-  width: 300px;
-  border-bottom: 10px solid rgba(255, 225, 132, 255);
+hr {
+  background: rgba(255, 225, 132, 255);
+  border: none;
+  width: 350px;
+  height: 10px;
 }
 
 .home h2 {
@@ -53,10 +55,9 @@ img {
     margin-left: 0;
   }
 
-  .last {
-    width: 200px;
+  hr {
+    width: 250px;
   }
-
   aside {
     width: 100%;
     position: absolute;
