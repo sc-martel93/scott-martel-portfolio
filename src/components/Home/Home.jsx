@@ -7,6 +7,7 @@ const Home = () => {
       <aside>
         <h1>Scott</h1>
         <h1 class="last">Martel</h1>
+        <h2>Web Developer</h2>
       </aside>
       <img src={laptop} />
     </section>
