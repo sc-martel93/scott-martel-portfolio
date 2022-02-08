@@ -13,13 +13,13 @@ nav {
   opacity: 0.9; */
 }
 
-ul {
+nav ul {
   display: flex;
   list-style: none;
   justify-content: flex-end;
 }
 
-li a {
+nav li a {
   font-size: 1.15rem;
   font-weight: bolder;
   padding: 10px;
