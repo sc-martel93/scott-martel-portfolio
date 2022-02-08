@@ -33,10 +33,6 @@ p {
   line-height: 2;
 }
 
-.blue {
-  color: #628d8b;
-}
-
 .buttons {
   display: flex;
   justify-content: space-around;
