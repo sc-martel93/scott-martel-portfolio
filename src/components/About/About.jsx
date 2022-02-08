@@ -25,10 +25,10 @@ const About = () => {
         creating things from scratch. Both have lead me into the wonderful world
         of web development.
       </p>
-      <div className="buttons">
+      <section className="buttons">
         <a href="#">Skills</a>
         <a href="#">Resume</a>
-      </div>
+      </section>
       <section className="skills">
         <ul>
           <li>
