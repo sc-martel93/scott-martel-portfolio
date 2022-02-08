@@ -14,7 +14,7 @@ import {
 
 const Skills = () => {
   return (
-    <section className="skills">
+    <section id="skills" className="skills">
       <ul>
         <li>
           <FontAwesomeIcon className="icon" icon={faHtml5} /> HTML / CSS
