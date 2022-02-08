@@ -18,12 +18,18 @@ const About = () => {
         <a href="#">Skills</a>
         <a href="#">Resume</a>
       </div>
-      <section>
-        <ul className="skills">
+      <section className="skills">
+        <ul>
           <li>HTML / CSS</li>
           <li>SASS, Tailwind, Bootstrap, MaterialUI</li>
-          <li></li>
-          <li></li>
+          <li>Javascript</li>
+          <li>React / Redux</li>
+        </ul>
+        <ul>
+          <li>NodeJS / ExpressJS</li>
+          <li>SQL / MySQL / MongoDB</li>
+          <li>Heroku / Firebase</li>
+          <li>Git / GitHub</li>
         </ul>
       </section>
     </article>
