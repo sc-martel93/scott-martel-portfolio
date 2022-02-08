@@ -38,7 +38,7 @@ hr {
   white-space: nowrap;
 }
 
-img {
+.background {
   width: 70%;
   min-width: 240px;
   height: 100%;
