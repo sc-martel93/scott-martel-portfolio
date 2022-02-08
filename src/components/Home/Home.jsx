@@ -8,7 +8,9 @@ const Home = () => {
         <h1>Scott</h1>
         <h1 class="last">Martel</h1>
         <hr />
-        <h2>Web Developer</h2>
+        <h2>
+          Web <span className="last">Developer</span>
+        </h2>
       </aside>
       <img src={laptop} />
     </section>
