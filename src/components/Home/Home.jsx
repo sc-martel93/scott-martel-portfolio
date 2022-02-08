@@ -9,7 +9,7 @@ const Home = () => {
         <h1 class="last">Martel</h1>
         <hr />
         <h2>
-          Web <span className="last">Developer</span>
+          Web <span className="lastDev">Developer</span>
         </h2>
       </aside>
       <img className="background" src={laptop} />

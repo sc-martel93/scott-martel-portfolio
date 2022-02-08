@@ -38,6 +38,11 @@ hr {
   white-space: nowrap;
 }
 
+.lastDev {
+  color: #fff56d;
+  font-family: "Cabin Sketch", cursive;
+}
+
 .background {
   width: 70%;
   min-width: 240px;
