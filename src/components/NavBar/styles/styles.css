@@ -1,10 +1,16 @@
+/* uncomment for attached nav bar */
 nav {
-  color: black;
   position: absolute;
-  top: 2rem;
-  height: 100px;
+  /* position: fixed; */
+  /* top: 0; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 50px;
   width: 100vw;
   z-index: 100;
+  /* background-color: #343d40;
+  opacity: 0.9; */
 }
 
 ul {
