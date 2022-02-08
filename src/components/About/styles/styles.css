@@ -43,6 +43,17 @@ p {
   text-decoration: none;
 }
 
+.buttons a:hover,
+.buttons a:focus {
+  background-color: #628d8b;
+  color: white;
+}
+
+.skills li {
+  display: flex;
+  flex-direction: column;
+}
+
 @media only screen and (max-width: 500px) {
   h3 {
     font-size: 3rem;

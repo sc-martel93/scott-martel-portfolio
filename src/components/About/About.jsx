@@ -3,7 +3,7 @@ import "./styles/styles.css";
 
 const About = () => {
   return (
-    <section id="about">
+    <article id="about">
       <h3>
         <span className="blue">&#123;</span> Hello World{" "}
         <span className="blue">&#125;</span>
@@ -18,7 +18,15 @@ const About = () => {
         <a href="#">Skills</a>
         <a href="#">Resume</a>
       </div>
-    </section>
+      <section>
+        <ul className="skills">
+          <li>HTML / CSS</li>
+          <li>SASS, Tailwind, Bootstrap, MaterialUI</li>
+          <li></li>
+          <li></li>
+        </ul>
+      </section>
+    </article>
   );
 };
 
