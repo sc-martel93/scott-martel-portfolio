@@ -4,7 +4,7 @@ import "./styles/styles.css";
 const Footer = () => {
   return (
     <footer>
-      <section className="info">
+      <section className="footer-info">
         <ul>
           <li>sc.martel93@gmail.com</li>
           <li>GitHub</li>
@@ -12,7 +12,7 @@ const Footer = () => {
           <li>Boston</li>
         </ul>
       </section>
-      <section className="title">
+      <section className="footer-title">
         <h3>Scott</h3>
         <h3>Martel</h3>
         <h4>Web Developer</h4>

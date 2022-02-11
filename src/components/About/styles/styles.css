@@ -15,7 +15,7 @@
   width: 3rem;
 }
 
-h3 {
+#about h3 {
   color: #fff56d;
   font-weight: 300;
   font-size: 4rem;
@@ -23,7 +23,7 @@ h3 {
   margin: 0 1rem;
 }
 
-p {
+#about p {
   color: white;
   font-size: 1.25rem;
   padding: 4rem 3rem;
@@ -78,11 +78,11 @@ p {
     width: 2rem;
   }
 
-  h3 {
+  #about h3 {
     font-size: 3rem;
   }
 
-  p {
+  #about p {
     font-size: 1.15rem;
   }
 }

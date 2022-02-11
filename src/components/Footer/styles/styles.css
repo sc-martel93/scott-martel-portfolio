@@ -1,18 +1,26 @@
 footer {
   background-color: #343d40;
   display: flex;
-  max-width: 800px;
+
+  height: 300px;
 }
 
-h3 {
+footer ul {
+  list-style-type: none;
+}
+
+footer h3 {
+  padding-top: 0;
   color: white;
+  font-weight: 300;
+  font-size: 4rem;
 }
 
 footer h4 {
   color: #fff56d;
 }
 
-footer .info {
+.footer-info {
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -20,8 +28,10 @@ footer .info {
   align-items: center;
 }
 
-footer .title {
+.footer-title {
   width: 50%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
