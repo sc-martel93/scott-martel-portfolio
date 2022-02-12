@@ -85,4 +85,8 @@
   #about p {
     font-size: 1.15rem;
   }
+
+  .image {
+    height: 200px;
+  }
 }
