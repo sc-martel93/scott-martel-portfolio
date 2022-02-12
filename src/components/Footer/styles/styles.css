@@ -10,6 +10,10 @@ footer ul {
   color: #fff56d;
 }
 
+footer ul li {
+  margin-bottom: 1.5rem;
+}
+
 footer h3 {
   padding-top: 0;
   color: white;
@@ -30,13 +34,21 @@ footer hr {
 
 .footer-info {
   width: 50%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  justify-content: center;
 }
 
 .footer-title {
   width: 50%;
+  height: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+}
+
+.yellow {
+  color: #fff56d;
 }

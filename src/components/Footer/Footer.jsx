@@ -14,7 +14,7 @@ const Footer = () => {
       </section>
       <hr />
       <section className="footer-title">
-        <h3>Scott</h3>
+        <h3 className="yellow">Scott</h3>
         <h3>Martel</h3>
         <h4>Web Developer</h4>
       </section>
