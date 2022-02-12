@@ -6,7 +6,7 @@ const Home = () => {
     <section class="home">
       <aside>
         <h1>Scott</h1>
-        <h1 class="last">Martel</h1>
+        <h1 className="last">Martel</h1>
         <hr />
         <h2>
           Web <span className="lastDev">Developer</span>
