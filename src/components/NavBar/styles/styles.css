@@ -40,11 +40,11 @@ li a:focus {
     margin-right: 0;
   }
 
-  ul {
+  nav ul {
     justify-content: space-around;
   }
 
-  li a {
+  nav li a {
     margin-right: 0;
     padding: 2rem;
   }
