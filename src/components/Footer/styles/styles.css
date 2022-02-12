@@ -19,13 +19,11 @@ footer ul li {
 footer li a:hover,
 footer li a:focus {
   color: white;
-
   outline: none;
 }
 
-footer .icon:hover,
-footer .icon:focus {
-  color: white;
+.footer-icon {
+  margin-right: 0.5rem;
 }
 
 @media only screen and (max-width: 500px) {

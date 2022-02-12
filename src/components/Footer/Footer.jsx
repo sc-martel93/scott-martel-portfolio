@@ -11,25 +11,26 @@ const Footer = () => {
       <ul>
         <li>
           <a>
-            <FontAwesomeIcon className="icon" icon={faEnvelope} />
+            <FontAwesomeIcon className="footer-icon" icon={faEnvelope} />
             Email
           </a>
         </li>
         <li>
           <a>
-            <FontAwesomeIcon className="icon" icon={faGithubSquare} />
+            <FontAwesomeIcon className="footer-icon" icon={faGithubSquare} />
             GitHub
           </a>
         </li>
         <li>
           <a>
-            <FontAwesomeIcon className="icon" icon={faLinkedin} />
+            <FontAwesomeIcon className="footer-icon" icon={faLinkedin} />
             LinkedIn
           </a>
         </li>
         <li>
           <a>
-            <FontAwesomeIcon icon={faLocationDot} /> Boston
+            <FontAwesomeIcon className="footer-icon" icon={faLocationDot} />{" "}
+            Boston
           </a>
         </li>
       </ul>
