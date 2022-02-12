@@ -2,8 +2,8 @@ footer {
   background-color: #343d40;
   display: flex;
   justify-content: center;
-  align-content: center;
-  height: 30%;
+  align-items: center;
+  height: 400px;
 }
 
 footer ul {
