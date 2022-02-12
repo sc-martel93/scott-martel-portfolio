@@ -1,12 +1,18 @@
 import React from "react";
 import "./styles/styles.css";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+
 const Footer = () => {
   return (
     <footer>
       <ul>
         <li>
-          <a>Email</a>
+          <a>
+            <FontAwesomeIcon className="icon" icon={faEnvelope} />
+            Email
+          </a>
         </li>
         <li>
           <a>GitHub</a>

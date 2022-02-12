@@ -16,6 +16,18 @@ footer ul li {
   font-size: 1.1rem;
 }
 
+footer li a:hover,
+footer li a:focus {
+  color: white;
+
+  outline: none;
+}
+
+footer .icon:hover,
+footer .icon:focus {
+  color: white;
+}
+
 @media only screen and (max-width: 500px) {
   footer ul li {
     margin-bottom: 1.2rem;
