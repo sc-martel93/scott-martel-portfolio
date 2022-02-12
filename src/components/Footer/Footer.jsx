@@ -6,7 +6,7 @@ const Footer = () => {
     <footer>
       <section className="footer-info">
         <ul>
-          <li>sc.martel93@gmail.com</li>
+          <li>Email</li>
           <li>GitHub</li>
           <li>LinkedIn</li>
           <li>Boston</li>
