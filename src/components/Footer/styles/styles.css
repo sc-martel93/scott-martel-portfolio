@@ -1,8 +1,9 @@
 footer {
   background-color: #343d40;
   display: flex;
-  align-items: center;
-  height: 300px;
+  justify-content: center;
+  align-content: center;
+  height: 30%;
 }
 
 footer ul {
@@ -15,55 +16,7 @@ footer ul li {
   font-size: 1.1rem;
 }
 
-footer h3 {
-  padding-top: 0;
-  color: white;
-  font-weight: 300;
-  font-size: 4rem;
-}
-
-footer h4 {
-  color: #fff56d;
-  font-size: 1.1rem;
-}
-
-footer hr {
-  width: 2px;
-  height: 200px;
-  background-color: #fff56d;
-  margin: 30px;
-}
-
-.footer-info {
-  width: 50%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  justify-content: center;
-}
-
-.footer-title {
-  width: 50%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.yellow {
-  color: #fff56d;
-}
-
 @media only screen and (max-width: 500px) {
-  footer h3 {
-    font-size: 3rem;
-  }
-
-  footer h4 {
-    font-size: 1rem;
-  }
-
   footer ul li {
     margin-bottom: 1.2rem;
     font-size: 1rem;
