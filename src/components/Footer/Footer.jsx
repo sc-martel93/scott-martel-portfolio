@@ -12,6 +12,7 @@ const Footer = () => {
           <li>Boston</li>
         </ul>
       </section>
+      <hr />
       <section className="footer-title">
         <h3>Scott</h3>
         <h3>Martel</h3>
