@@ -28,8 +28,8 @@ nav li a {
   margin-right: 2.5rem;
 }
 
-li a:hover,
-li a:focus {
+nav li a:hover,
+nav li a:focus {
   color: #fff56d;
   text-decoration: underline;
   outline: none;
