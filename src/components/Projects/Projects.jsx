@@ -16,8 +16,20 @@ const Projects = () => {
             firestore database with google login authentication
           </p>
           <section className="project-buttons">
-            <a href="">Live</a>
-            <a href="">Code</a>
+            <a
+              href="https://chat-app-cd6c7.web.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Live
+            </a>
+            <a
+              href="https://github.com/sc-martel93/chat-app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Code
+            </a>
           </section>
         </article>
       </section>
