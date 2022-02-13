@@ -16,6 +16,16 @@ footer ul li {
   font-size: 1.1rem;
 }
 
+footer li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+footer li a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
 footer li a:hover,
 footer li a:focus {
   color: white;
