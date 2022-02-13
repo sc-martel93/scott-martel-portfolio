@@ -28,10 +28,8 @@ const Footer = () => {
           </a>
         </li>
         <li>
-          <a>
-            <FontAwesomeIcon className="footer-icon" icon={faLocationDot} />{" "}
-            Boston
-          </a>
+          <FontAwesomeIcon className="footer-icon" icon={faLocationDot} />
+          Boston
         </li>
       </ul>
     </footer>
