@@ -23,7 +23,7 @@ const About = () => {
       </p>
 
       <section className="buttons">
-        <a href="#skills" onClick={() => setViewSkills(!viewSkills)}>
+        <a href="#about" onClick={() => setViewSkills(!viewSkills)}>
           Skills
         </a>
         <a href="#">Resume</a>
