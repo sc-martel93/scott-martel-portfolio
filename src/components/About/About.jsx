@@ -26,7 +26,9 @@ const About = () => {
         <a href="#about" onClick={() => setViewSkills(!viewSkills)}>
           Skills
         </a>
-        <a href="#">Resume</a>
+        <a href="/resume.pdf" target="_blank">
+          Resume
+        </a>
       </section>
 
       {viewSkills ? <Skills /> : <img className="image" src={image} />}
