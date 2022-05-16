@@ -3,7 +3,7 @@ import "./styles/styles.css";
 import laptop from "../../assets/images/laptop.png";
 const Home = () => {
   return (
-    <section class="home">
+    <section className="home">
       <aside>
         <h1>Scott</h1>
         <h1 className="last">Martel</h1>
