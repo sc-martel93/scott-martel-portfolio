@@ -47,14 +47,14 @@
   text-align: center;
   padding: 7px 9px;
   width: 100px;
-  border: 3px solid #628d8b;
+  border: 3px solid #187498;
   border-radius: 0.5rem;
   text-decoration: none;
 }
 
 .buttons a:hover,
 .buttons a:focus {
-  background-color: #628d8b;
+  background-color: #187498;
   color: white;
 }
 

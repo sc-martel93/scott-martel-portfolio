@@ -50,8 +50,8 @@
 
 .project-buttons a {
   color: #fff56d;
-  background-color: #343d40;
-  border: 3px solid #628d8b;
+  background-color: #121619;
+  border: 3px solid #187498;
   font-size: 1.25rem;
   text-align: center;
   padding: 7px 9px;
@@ -63,7 +63,7 @@
 
 .project-buttons a:hover,
 .project-buttons a:focus {
-  background-color: #628d8b;
+  background-color: #187498;
   color: white;
 }
 
