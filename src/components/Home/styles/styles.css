@@ -1,6 +1,7 @@
 .home {
   height: 100vh;
-  background-color: #343d40;
+  background-color: black;
+  /* #343d40 */
   display: flex;
   align-items: center;
 }

@@ -1,6 +1,7 @@
 .projects {
   height: 100vh;
-  background-color: #343d40;
+  background-color: black ;
+  /* #343d40 */
 }
 
 .projects h3 {
