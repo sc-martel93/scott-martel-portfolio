@@ -21,11 +21,11 @@ const Skills = () => {
         </li>
         <li>
           <FontAwesomeIcon className="icon" icon={faCss3} />
-          SASS, Tailwind, Bootstrap, MaterialUI
+          SASS / Tailwind / Bootstrap / MaterialUI
         </li>
         <li>
           <FontAwesomeIcon className="icon" icon={faJsSquare} />
-          Javascript
+          Javascript / Typescript
         </li>
         <li>
           <FontAwesomeIcon className="icon" icon={faReact} />
