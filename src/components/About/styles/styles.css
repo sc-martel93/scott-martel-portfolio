@@ -25,7 +25,7 @@
 }
 
 #about p {
-  color: white;
+  color: #fefae0;
   font-size: 1.25rem;
   padding: 4rem 3rem;
   border-radius: 1rem;
@@ -55,7 +55,7 @@
 .buttons a:hover,
 .buttons a:focus {
   background-color: #187498;
-  color: white;
+  color: #fefae0;
 }
 
 .image {
