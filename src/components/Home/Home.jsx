@@ -2,7 +2,7 @@ import React from "react";
 import "./styles/styles.css";
 
 import laptop from "../../assets/images/laptop.png";
-import workspace from "../../assets/images/workspace.jpg";
+import workspace from "../../assets/images/workspace2.jpg";
 
 const Home = () => {
   return (
