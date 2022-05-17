@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Skills from "./Skills/Skills";
 import "./styles/styles.css";
 
-import image from "../../assets/images/image.png";
+import image from "../../assets/images/image2.png";
 import leftBracket from "../../assets/images/left_bracket.png";
 import rightBracket from "../../assets/images/right_bracket.png";
 
