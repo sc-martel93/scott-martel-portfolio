@@ -1,4 +1,5 @@
 .skills {
+  font-size: 1.15rem;
   max-width: 800px;
   width: 80%;
   margin: 4rem auto;
@@ -23,7 +24,13 @@
 
 @media only screen and (max-width: 500px) {
   .skills {
-    font-size: 0.85rem;
+    font-size: 0.9rem;
     margin: 3rem auto;
+  }
+}
+
+@media only screen and (min-width: 1500px){
+  .skills {
+    font-size: 1.25rem;
   }
 }
