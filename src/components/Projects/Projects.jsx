@@ -19,7 +19,7 @@ const Projects = () => {
       <h3>Projects</h3>
       <section className="cards">
         <article className="card">
-          <img src={ChatBoxIMG} />
+          <img src={ChatBoxIMG} alt="chat box" />
           <section className="description">
             <h4>Chat Box</h4>
             <p>
@@ -70,7 +70,7 @@ const Projects = () => {
         </article>
 
         <article className="card">
-          <img src={ChatBoxIMG} />
+          <img src={ChatBoxIMG} alt="chat box" />
           <section className="description">
             <h4>Chat Box</h4>
             <p>

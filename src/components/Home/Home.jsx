@@ -15,7 +15,7 @@ const Home = () => {
           Web <span className="lastDev">Developer</span>
         </h2>
       </aside>
-      <img className="background" src={workspace} />
+      <img className="background" src={workspace} alt="" />
     </section>
   );
 };
