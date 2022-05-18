@@ -44,12 +44,14 @@
 }
 
 .card p {
+  font-size: 1.1rem;
   text-align: center;
   padding: 1rem;
   line-height: 1.5rem;
 }
 
 .tech {
+  font-size: 1.1rem;
   display: flex;
   flex-direction: row;
 }
@@ -117,4 +119,26 @@
     margin: 0 auto;
   }
 
+}
+
+@media only screen and (min-width: 1500px){
+  .card img {
+    width: 80%;
+    margin: 1rem;
+    border-radius: 0.5rem;
+  }
+
+
+  .card h4 {
+    font-size: 2.2rem;
+  }
+  
+  .card p {
+    font-size: 1.2rem;
+  }
+  
+  .tech {
+    font-size: 1.2rem;
+  }
+  
 }
