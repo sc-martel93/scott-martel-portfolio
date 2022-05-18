@@ -5,11 +5,15 @@ nav {
   top: 0;  */
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: space-between;
   height: 75px;
   width: 100vw;
   z-index: 100;
   background-color:rgba(18,22,25,0.25);
+}
+
+nav img {
+  margin: 2rem;
 }
 
 nav ul {
@@ -42,6 +46,11 @@ nav li a:focus {
     margin-right: 0;
   }
 
+  nav img {
+    display: none;
+  }
+  
+
   nav ul {
     width: 100vw;
     justify-content: space-around;
@@ -49,6 +58,5 @@ nav li a:focus {
 
   nav li a {
     margin-right: 0;
-
   }
 }
