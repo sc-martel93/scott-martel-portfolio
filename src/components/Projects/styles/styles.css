@@ -94,11 +94,17 @@
 
   .card {
     flex-direction: column;
-    height: 575px;
+    justify-content: space-evenly;
+    height: 650px;
     width: 400px;
   }
 
   .card img {
+    margin: 1rem auto;
+  }
+
+  .tech {
+    width: 80%;
     margin: 1rem auto;
   }
 
