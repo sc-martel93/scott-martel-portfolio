@@ -1,5 +1,15 @@
 import React from "react";
 import "./styles/styles.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faHtml5,
+  faCss3,
+  faJsSquare,
+  faReact,
+  faNodeJs,
+  faGitAlt,
+  faGoogle
+} from "@fortawesome/free-brands-svg-icons";
 
 import ChatBoxIMG from "../../assets/images/ChatBoxIMG.PNG";
 
@@ -10,26 +20,51 @@ const Projects = () => {
       <section className="cards">
         <article className="card">
           <img src={ChatBoxIMG} />
-          <h4>Chat Box</h4>
-          <p>
-            A real time chat application created using Google firebase and
-            firestore database with google login authentication
-          </p>
-          <section className="project-buttons">
-            <a
-              href="https://chat-app-cd6c7.web.app/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Live
-            </a>
-            <a
-              href="https://github.com/sc-martel93/chat-app/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Code
-            </a>
+          <section className="description">
+            <h4>Chat Box</h4>
+            <p>
+              A real time chat application created using Google firebase and
+              firestore database with google login authentication
+            </p>
+            <section className="tech">
+              <ul>
+                <li>
+                 <FontAwesomeIcon className="icon" icon={faReact} />
+                  React JS
+                </li>
+                <li>
+                  <FontAwesomeIcon className="icon" icon={faCss3} />
+                  CSS
+                </li>
+               </ul>
+               <ul>
+                <li>
+                  <FontAwesomeIcon className="icon" icon={faGoogle} />
+                  Google Firebase
+                </li>
+                <li>
+                  <FontAwesomeIcon className="icon" icon={faGitAlt} />
+                  Git
+                </li>
+              </ul>
+            </section>
+            <section className="project-buttons">
+              <a
+                href="https://chat-app-cd6c7.web.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Live
+              </a>
+              <a
+                href="https://github.com/sc-martel93/chat-app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Code
+              </a>
+          </section>
+          
           </section>
         </article>
       </section>

@@ -14,20 +14,25 @@
   max-width: 800px;
   margin: 4rem auto;
 }
+
 .card {
-  height: 575px;
-  width: 400px;
+  height: 300px;
   margin: 0 auto;
   background-color: #187498;
   border-radius: 0.5rem;
   display: flex;
-  flex-direction: column;
 }
 
 .card img {
   width: 80%;
-  margin: 1rem auto;
+  margin: 1rem;
   border-radius: 0.5rem;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .card h4 {
@@ -42,9 +47,23 @@
   line-height: 1.5rem;
 }
 
+.tech {
+  display: flex;
+  flex-direction: row;
+}
+
+.tech ul {
+  list-style: none;
+  margin: 0 auto;
+}
+
+.tech ul li {
+  margin: 0 auto;
+}
+
 .project-buttons {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin: 0 auto;
 }
 
@@ -67,4 +86,27 @@
   background-color: #ecf39e;
   color: #121619;
   box-shadow: 0.5rem 0.5rem #121619;
+  border: none;
+}
+
+
+@media only screen and (max-width: 850px) {
+
+  .card {
+    flex-direction: column;
+    height: 575px;
+    width: 400px;
+  }
+
+  .card img {
+    margin: 1rem auto;
+  }
+
+  .tech ul {
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: 0 auto;
+  }
+
 }
