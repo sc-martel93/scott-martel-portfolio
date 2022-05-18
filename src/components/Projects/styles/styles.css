@@ -1,5 +1,6 @@
 .projects {
   height: 100vh;
+  min-height: 100%;
   background-color: #121619;
 }
 
@@ -17,7 +18,7 @@
 
 .card {
   height: 300px;
-  margin: 0 auto;
+  margin: 3.5rem auto;
   background-color: #187498;
   border-radius: 0.5rem;
   display: flex;
