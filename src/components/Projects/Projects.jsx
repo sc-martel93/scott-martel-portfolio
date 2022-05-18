@@ -23,8 +23,8 @@ const Projects = () => {
           <section className="description">
             <h4>Chat Box</h4>
             <p>
-              A real time chat application created using Google firebase and
-              firestore database with google login authentication
+              An online chat room application that includes user authentication through
+              google and allows the users to communicate through text.
             </p>
             <section className="tech">
               <ul>
