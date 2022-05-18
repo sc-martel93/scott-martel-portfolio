@@ -8,6 +8,7 @@ import rightBracket from "../../assets/images/right_bracket.png";
 
 const About = () => {
   const [viewSkills, setViewSkills] = useState(false);
+  
   return (
     <article id="about">
       <section className="title">
