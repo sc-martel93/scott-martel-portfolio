@@ -12,9 +12,9 @@ const About = () => {
   return (
     <article id="about">
       <section className="title">
-        <img className="bracket" src={leftBracket} />
+        <img className="bracket" src={leftBracket} alt="" />
         <h3>Hello World</h3>
-        <img className="bracket" src={rightBracket} />
+        <img className="bracket" src={rightBracket} alt="" />
       </section>
       <p>
         My name is Scott and I am a Boston based web developer. Ever since I was
@@ -23,8 +23,8 @@ const About = () => {
         of web development.
       </p>
 
-      <section className="buttons">
-        <a href="#about" onClick={() => setViewSkills(!viewSkills)}>
+      <section id="skills" className="buttons">
+        <a onClick={() => setViewSkills(!viewSkills)}>
           Skills
         </a>
         <a href="/resume.pdf" target="_blank">
@@ -32,7 +32,7 @@ const About = () => {
         </a>
       </section>
 
-      {viewSkills ? <Skills /> : <img className="image" src={image} />}
+      {viewSkills ? <Skills /> : <img className="image" src={image} alt=""/>}
     </article>
   );
 };
