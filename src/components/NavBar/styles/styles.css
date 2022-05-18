@@ -2,15 +2,14 @@
 nav {
   position: absolute;
   /* position: fixed;
-  top: 0; */
+  top: 0;  */
   display: flex;
   align-items: center;
   justify-content: flex-end;
   height: 75px;
   width: 100vw;
   z-index: 100;
-  /* background-color: #121619;
-  opacity: 0.9; */
+  background-color:rgba(18,22,25,0.25);
 }
 
 nav ul {
@@ -20,21 +19,21 @@ nav ul {
 }
 
 nav li a {
+  color: #fefae0;
   font-size: 1.15rem;
   font-weight: bolder;
   padding: 10px;
   text-decoration: none;
-  color: rgba(247, 246, 241, 255);
   margin-right: 2.5rem;
+  border-radius: 0.5rem;
 }
 
 nav li a:hover,
 nav li a:focus {
   color: #ecf39e;
-  text-decoration: underline;
   outline: none;
-  transition-timing-function: ease;
   font-size: 1.25rem;
+  box-shadow: 0.25rem 0.25rem #187498;
 }
 
 @media only screen and (max-width: 810px) {
