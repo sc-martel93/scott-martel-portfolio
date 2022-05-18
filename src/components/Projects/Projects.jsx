@@ -12,6 +12,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 import ChatBoxIMG from "../../assets/images/ChatBoxIMG.PNG";
+import CryptoTracker from '../../assets/images/CryptoTracker.png'
 
 const Projects = () => {
   return (
@@ -70,12 +71,13 @@ const Projects = () => {
         </article>
 
         <article className="card">
-          <img src={ChatBoxIMG} alt="chat box" />
+          <img src={CryptoTracker} alt="Crypto tracker" />
           <section className="description">
-            <h4>Chat Box</h4>
+            <h4>Crypto Tracker</h4>
             <p>
-              An online chat room application that includes user authentication through
-              google and allows the users to communicate through text.
+            Crypto tracker is an app created using React js, axios and the 
+            coin gecko API used to track the current price of popular crypto 
+            currencies.
             </p>
             <section className="tech">
               <ul>
@@ -101,14 +103,14 @@ const Projects = () => {
             </section>
             <section className="project-buttons">
               <a
-                href="https://chat-app-cd6c7.web.app/"
+                href="https://sc-martel93.github.io/Crypto-Tracker/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 Live
               </a>
               <a
-                href="https://github.com/sc-martel93/chat-app/"
+                href="https://github.com/sc-martel93/Crypto-Tracker/tree/master"
                 target="_blank"
                 rel="noopener noreferrer"
               >
