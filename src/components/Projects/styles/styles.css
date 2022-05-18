@@ -18,7 +18,7 @@
   height: 575px;
   width: 400px;
   margin: 0 auto;
-  background-color: #acc0bf;
+  background-color: #187498;
   border-radius: 0.5rem;
   display: flex;
   flex-direction: column;
@@ -53,6 +53,7 @@
   background-color: #121619;
   border: 3px solid #187498;
   font-size: 1.25rem;
+  font-weight: bold;
   text-align: center;
   padding: 7px 9px;
   margin: 1rem;
@@ -63,11 +64,7 @@
 
 .project-buttons a:hover,
 .project-buttons a:focus {
-  background-color: #187498;
-  color: #fefae0;
-}
-
-.project-buttons a:visited {
-  text-decoration: none;
-  color: #ecf39e;
+  background-color: #ecf39e;
+  color: #121619;
+  box-shadow: 0.5rem 0.5rem #121619;
 }
