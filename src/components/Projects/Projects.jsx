@@ -154,14 +154,12 @@ const Projects = () => {
             </section>
             <section className="project-buttons">
               <a
-                href="https://sc-martel93.github.io/Crypto-Tracker/"
-                target="_blank"
-                rel="noopener noreferrer"
+                href="#nav"
               >
                 Live
               </a>
               <a
-                href="https://github.com/sc-martel93/Crypto-Tracker/tree/master"
+                href="https://github.com/sc-martel93/scott-martel-portfolio"
                 target="_blank"
                 rel="noopener noreferrer"
               >
