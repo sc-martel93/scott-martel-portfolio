@@ -1,26 +1,90 @@
-import React from 'react'
+import React, { useRef, useState } from 'react';
 import "./styles/styles.css";
+import emailjs from '@emailjs/browser';
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPaperPlane } from '@fortawesome/free-regular-svg-icons';
 
 const ContactForm = () => {
-  return (
-      <section id="contact" className="contact">
-      <h3>Contact Me</h3>
-       <form className="contact_form">
+    const SERVICE_ID = 'service_knqapsk';
+    const TEMPLATE_ID = 'template_v74hh4j';
+    const PUBLIC_KEY = 'IwLeLCHtSYUWnVatZ';
+
+    const form = useRef(null);
+
+    const [name, setName] = useState("");
+    const [email, setEmail] = useState("");
+    const [subject, setSubject] = useState("");
+    const [message, setMessage] = useState("");
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+       
+        emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form.current, PUBLIC_KEY)
+        .then((result) => {
+            console.log(result);
+            clearForm();
+           
+        }, error => {
+            console.error(error.text);
+        })
+        
+    }
+
+    const clearForm = () => {
+        setName("");
+        setEmail("");
+        setSubject("");
+        setMessage("");
+    }
+
+    return (
+        <section id="contact" className="contact">
+        <h3>Contact Me</h3>
+        <form ref={form} onSubmit={sendEmail} className="contact_form">
             <label>Your Name:</label>
-            <input required type="text" name="name" placeholder="Name..." />
+            <input 
+                required 
+                type="text" 
+                name="name" 
+                placeholder="Name..."
+                value={name}
+                onChange={e => setName(e.target.value)}
+            />
             <label>Your Email: </label>
-            <input required type="email" name="email" placeholder="example@email.com"  />
+            <input 
+                required 
+                type="email" 
+                name="email"
+                placeholder="example@email.com"
+                value={email}
+                onChange={e => setEmail(e.target.value)}  
+             />
+            <label>Subject:</label>
+            <input 
+                required 
+                type="text" 
+                name="subject" 
+                placeholder="Subject..."
+                value={subject}
+                onChange={e => setSubject(e.target.value)}
+            />
             <label>Your Message:</label>
-            <textarea required name="message" placeholder="Message..." wrap="hard" maxlength="1500" />
+            <textarea 
+                required 
+                name="message" 
+                placeholder="Message..." 
+                wrap="hard" 
+                maxLength="1500"
+                value={message}
+                onChange={e => setMessage(e.target.value)}
+            />
             <button type="submit">
                 Send
                 <FontAwesomeIcon icon={faPaperPlane} />
             </button>
         </form>
-      </section>
+        </section>
    
   )
 }
