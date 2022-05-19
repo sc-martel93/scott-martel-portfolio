@@ -4,7 +4,7 @@ import "./styles/styles.css";
 const ContactForm = () => {
   return (
       <section id="contact" className="contact">
-      <h3>Send a Message</h3>
+      <h3>Contact Me</h3>
        <form className="contact_form">
             <label>Name</label>
             <input type="text" name="name" placeholder="Name..." />
