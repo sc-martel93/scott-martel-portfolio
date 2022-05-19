@@ -14,7 +14,7 @@ const ContactForm = () => {
             <label>Your Email: </label>
             <input required type="email" name="email" placeholder="example@email.com"  />
             <label>Your Message:</label>
-            <textarea required name="message" placeholder="Message..." maxlength="1500" />
+            <textarea required name="message" placeholder="Message..." wrap="hard" maxlength="1500" />
             <button type="submit">
                 Send
                 <FontAwesomeIcon icon={faPaperPlane} />
