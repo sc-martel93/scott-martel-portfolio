@@ -11,6 +11,19 @@
     padding-top: 4rem;
 }
 
+.contact p {
+    max-width: 600px;
+    min-width: 250px;
+    width: 50%;
+    padding: 2rem 4rem;
+    margin: 4rem auto;
+    background-color: rgba(24, 116, 152, 0.5);
+    color: #fefae0;
+    font-size: 1.2rem;
+    letter-spacing: 0.05rem;
+    border-radius: 0.5rem;
+}
+
 .contact_form {
     display: flex;
     flex-direction: column;
@@ -85,5 +98,10 @@
 
     .contact_form textarea {
         font-size: 1rem;
+    }
+
+    .contact p {
+        padding: 1.5rem 3.5rem;
+        font-size: 1.1rem;
     }
 }

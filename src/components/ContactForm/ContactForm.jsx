@@ -16,15 +16,15 @@ const ContactForm = () => {
     const [email, setEmail] = useState("");
     const [subject, setSubject] = useState("");
     const [message, setMessage] = useState("");
+    const [isSuccess, setIsSuccess] = useState(false);
 
     const sendEmail = (e) => {
         e.preventDefault();
        
         emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, form.current, PUBLIC_KEY)
         .then((result) => {
-            console.log(result);
+            setIsSuccess(true);
             clearForm();
-           
         }, error => {
             console.error(error.text);
         })
@@ -41,7 +41,11 @@ const ContactForm = () => {
     return (
         <section id="contact" className="contact">
         <h3>Contact Me</h3>
-        <form ref={form} onSubmit={sendEmail} className="contact_form">
+        {isSuccess ? 
+            <p>
+                Your message has been sent, I will get back to you as soon as possible, thanks!
+            </p> : 
+            <form ref={form} onSubmit={sendEmail} className="contact_form">
             <label>Your Name:</label>
             <input 
                 required 
@@ -84,6 +88,7 @@ const ContactForm = () => {
                 <FontAwesomeIcon icon={faPaperPlane} />
             </button>
         </form>
+        }
         </section>
    
   )
