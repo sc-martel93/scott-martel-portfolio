@@ -26,6 +26,7 @@ const ContactForm = () => {
             setIsSuccess(true);
             clearForm();
         }, error => {
+            window.alert("Sorry, there has been an error please retry or get email from below.")
             console.error(error.text);
         })
         
