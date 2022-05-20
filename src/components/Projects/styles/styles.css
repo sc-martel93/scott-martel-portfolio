@@ -73,6 +73,10 @@
   color: #121619;
 }
 
+.tech .icon:hover {
+  color:#ecf39e;
+}
+
 .project-buttons {
   display: flex;
   justify-content: space-around;
