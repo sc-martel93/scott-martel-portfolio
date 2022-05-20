@@ -8,7 +8,7 @@ footer {
 
 footer ul {
   list-style-type: none;
-  color: #fff56d;
+  color: #ecf39e;
 }
 
 footer ul li {
@@ -28,7 +28,7 @@ footer li a:visited {
 
 footer li a:hover,
 footer li a:focus {
-  color: white;
+  color: #fefae0;
   outline: none;
   cursor: pointer;
 }
