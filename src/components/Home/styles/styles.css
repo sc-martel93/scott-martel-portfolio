@@ -16,6 +16,7 @@ h1 {
   color: rgba(247, 246, 241, 255);
   margin-left: 4rem;
   color: #fefae0;
+  letter-spacing: 0.25rem;
 }
 
 .last {
@@ -38,6 +39,7 @@ hr {
   overflow: visible;
   white-space: nowrap;
   color: #fefae0;
+  letter-spacing: 0.15rem;
 }
 
 .lastDev {

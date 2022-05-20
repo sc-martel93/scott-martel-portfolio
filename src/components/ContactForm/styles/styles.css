@@ -9,6 +9,7 @@
     color: #ecf39e;
     font-size: 3rem;
     padding-top: 4rem;
+    letter-spacing: 0.08rem;
 }
 
 .contact p {
@@ -20,7 +21,7 @@
     background-color: rgba(24, 116, 152, 0.5);
     color: #fefae0;
     font-size: 1.2rem;
-    letter-spacing: 0.05rem;
+    letter-spacing: 0.08rem;
     border-radius: 0.5rem;
 }
 
@@ -40,6 +41,7 @@
     color: #fefae0;
     font-size: 1.2rem;
     font-weight: bolder;
+    letter-spacing: 0.08rem;
 }
 
 .contact_form input {
@@ -73,6 +75,7 @@
     font-weight: bold;
     border-radius: 0.5rem;
     border: 3px solid #187498;
+    letter-spacing: 0.08rem;
 }
 
 .contact_form button:hover,
