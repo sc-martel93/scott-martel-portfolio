@@ -23,7 +23,7 @@ const About = () => {
         of web development.
       </p>
 
-      <section id="skills" className="buttons">
+      <section className="buttons">
         <button onClick={() => setViewSkills(!viewSkills)}>
           Skills
         </button>
