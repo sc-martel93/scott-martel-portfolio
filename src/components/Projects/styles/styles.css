@@ -108,7 +108,8 @@
   .card {
     flex-direction: column;
     justify-content: space-evenly;
-    height: 700px;
+    /* height: 700px; */
+    height: min-content;
     width: 400px;
   }
 
