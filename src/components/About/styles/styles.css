@@ -58,6 +58,27 @@
   box-shadow: inset -0.4rem -0.3rem #121619;
 }
 
+.buttons button {
+  color: #ecf39e;
+  background-color: rgba(24, 116, 152, .4);
+  font-size: 1.25rem;
+  text-align: center;
+  padding:0.75rem 1.5rem;
+  width: 154px;
+  border: 3px solid #187498;
+  border-radius: 0.5rem;
+  box-shadow: inset -0.4rem -0.3rem #121619;
+}
+
+.buttons button:focus,
+.buttons button:hover {
+  cursor: pointer;
+  background-color: #121619;
+  color: #fefae0;
+  border: 3px solid #ecf39e;
+  outline: none;
+}
+
 .buttons a:hover,
 .buttons a:focus {
   background-color: #121619;
@@ -112,6 +133,11 @@
   }
 
   .buttons a {
+    padding: 1rem 2.5rem;
+    font-size: 1.45rem;
+  }
+
+  .buttons button {
     padding: 1rem 2.5rem;
     font-size: 1.45rem;
   }

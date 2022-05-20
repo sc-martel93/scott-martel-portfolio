@@ -24,9 +24,9 @@ const About = () => {
       </p>
 
       <section id="skills" className="buttons">
-        <a onClick={() => setViewSkills(!viewSkills)}>
+        <button onClick={() => setViewSkills(!viewSkills)}>
           Skills
-        </a>
+        </button>
         <a href="/resume.pdf" target="_blank">
           Resume
         </a>
