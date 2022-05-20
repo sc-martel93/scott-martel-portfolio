@@ -6,9 +6,9 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPaperPlane } from '@fortawesome/free-regular-svg-icons';
 
 const ContactForm = () => {
-    const SERVICE_ID = 'service_knqapsk';
-    const TEMPLATE_ID = 'template_v74hh4j';
-    const PUBLIC_KEY = 'IwLeLCHtSYUWnVatZ';
+    const SERVICE_ID = process.env.REACT_APP_SERVICE_ID;
+    const TEMPLATE_ID = process.env.REACT_APP_TEMPLATE_ID;
+    const PUBLIC_KEY = process.env.REACT_APP_PUBLIC_KEY;
 
     const form = useRef(null);
 
@@ -91,7 +91,6 @@ const ContactForm = () => {
         </form>
         }
         </section>
-   
   )
 }
 
