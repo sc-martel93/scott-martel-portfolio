@@ -114,6 +114,10 @@
   .card p {
     font-size: 1rem;
   }
+
+  .tech {
+    font-size: 1rem;
+  }
 }
 
 
@@ -162,5 +166,34 @@
   
   .tech {
     font-size: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  
+  .card {
+    width: 90%;
+    min-width: 315px;
+  }
+
+  .card p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.08rem;
+  }
+
+  .tech {
+    font-size: 1rem;
+  }
+
+  .tech ul {
+    margin-left: 1rem;
+  }
+
+  .project-buttons a {
+    font-size: 1.1rem;
+    padding:0.75rem 1.5rem;
+    margin: 1rem;
+    width: 70px;
   }
 }
