@@ -7,6 +7,8 @@ import {
   faJsSquare,
   faReact,
   faNodeJs,
+  faAws,
+  faNpm,
   faGitAlt,
   faGoogle
 } from "@fortawesome/free-brands-svg-icons";
@@ -38,11 +40,15 @@ const Projects = () => {
                   <FontAwesomeIcon className="icon" icon={faCss3} />
                   CSS
                 </li>
+                <li>
+                  <FontAwesomeIcon className="icon" icon={faNpm} />
+                  npm
+                </li>
                </ul>
                <ul>
                 <li>
                   <FontAwesomeIcon className="icon" icon={faGoogle} />
-                  Google Firebase
+                  Firebase
                 </li>
                 <li>
                   <FontAwesomeIcon className="icon" icon={faGitAlt} />
@@ -93,8 +99,8 @@ const Projects = () => {
                </ul>
                <ul>
                 <li>
-                  <FontAwesomeIcon className="icon" icon={faGoogle} />
-                  Google Firebase
+                  <FontAwesomeIcon className="icon" icon={faNpm} />
+                  npm
                 </li>
                 <li>
                   <FontAwesomeIcon className="icon" icon={faGitAlt} />
@@ -140,11 +146,15 @@ const Projects = () => {
                   <FontAwesomeIcon className="icon" icon={faCss3} />
                   CSS
                 </li>
+                <li>
+                  <FontAwesomeIcon className="icon" icon={faNpm} />
+                  npm
+                </li>
                </ul>
                <ul>
                 <li>
-                  <FontAwesomeIcon className="icon" icon={faGoogle} />
-                  Google Firebase
+                  <FontAwesomeIcon className="icon" icon={faAws} />
+                  AWS
                 </li>
                 <li>
                   <FontAwesomeIcon className="icon" icon={faGitAlt} />
