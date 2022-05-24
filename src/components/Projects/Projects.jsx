@@ -17,6 +17,7 @@ import ChatBoxIMG from "../../assets/images/ChatBoxIMG.PNG";
 import eCommerceIMG from "../../assets/images/Ecommerce.PNG"
 import CryptoTrackerIMG from '../../assets/images/CryptoTracker.png';
 import PortfolioIMG from '../../assets/images/Portfolio.png';
+import DrumScriptIMG from '../../assets/images/DrumScript.PNG';
 
 const Projects = () => {
   return (
@@ -24,7 +25,7 @@ const Projects = () => {
       <h3>Projects</h3>
       <section className="cards">
         <article id="chatbox" className="card">
-          <img src={ChatBoxIMG} alt="chat box" />
+          <img src={ChatBoxIMG} alt="chat box web app" />
           <section className="description">
             <h4>Chat Box</h4>
             <p>
@@ -79,7 +80,7 @@ const Projects = () => {
         </article>
 
         <article id="ecommerce" className="card">
-          <img src={eCommerceIMG} alt="chat box" />
+          <img src={eCommerceIMG} alt="Ecommerce web app" />
           <section className="description">
             <h4>Vintage eCommerce</h4>
             <p>
@@ -132,7 +133,7 @@ const Projects = () => {
         </article>
 
         <article id="crypto" className="card">
-          <img src={CryptoTrackerIMG} alt="Crypto tracker" />
+          <img src={CryptoTrackerIMG} alt="Crypto tracker web app" />
           <section className="description">
             <h4>Crypto Tracker</h4>
             <p>
@@ -181,8 +182,57 @@ const Projects = () => {
           </section>
         </article>
 
+        <article id="drum" className="card">
+          <img src={DrumScriptIMG} alt="Drum Script web app" />
+          <section className="description">
+            <h4>Drum Script</h4>
+            <p>
+            Drum Script is a simple drum pad web application created using
+            HTML, CSS and Javascript.
+            </p>
+            <section className="tech">
+              <ul>
+              <li>
+                 <FontAwesomeIcon className="icon" icon={faHtml5} />
+                  HTML
+                </li>
+                <li>
+                  <FontAwesomeIcon className="icon" icon={faCss3} />
+                  CSS
+                </li>
+               </ul>
+               <ul>
+               <li>
+                 <FontAwesomeIcon className="icon" icon={faJsSquare} />
+                  Javascript
+                </li>
+                <li>
+                  <FontAwesomeIcon className="icon" icon={faGitAlt} />
+                  Git
+                </li>
+              </ul>
+            </section>
+            <section className="project-buttons">
+              <a
+                href="https://drum-script.web.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Live
+              </a>
+              <a
+                href="https://github.com/sc-martel93/js-drumk-kit"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Code
+              </a>
+          </section>
+          </section>
+        </article>
+
         <article id="portfolio" className="card">
-          <img src={PortfolioIMG} alt="Crypto tracker" />
+          <img src={PortfolioIMG} alt="Scott's Portfolio Page" />
           <section className="description">
             <h4>My Portfolio Page</h4>
             <p>
