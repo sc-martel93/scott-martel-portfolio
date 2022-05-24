@@ -1,13 +1,13 @@
 .projects {
   min-height: 100vh;
   background-color: #121619;
+  
 }
 
 .projects h3 {
   color: #ecf39e;
   font-size: 4rem;
   text-align: center;
-  padding-top: 4rem;
 }
 
 .cards {
