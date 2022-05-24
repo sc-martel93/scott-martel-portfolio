@@ -24,6 +24,10 @@
   margin-right: 0.5rem;
 }
 
+.icon:hover {
+  color: #187498;
+}
+
 @media only screen and (max-width: 640px) {
   .skills {
     font-size: 0.85rem;
