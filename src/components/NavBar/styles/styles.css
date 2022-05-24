@@ -42,6 +42,33 @@ nav li a:focus {
   box-shadow: 0.25rem 0.25rem #187498;
 }
 
+@media only screen and (max-width: 640px) {
+  nav {
+    margin-right: 0;
+    justify-items: flex-end;
+  }
+
+  nav img {
+    display: none;
+  }
+  
+  nav ul {
+    width: 100vw;
+    justify-content: space-around;
+  }
+
+  nav li a {
+    margin-right: 0;
+    font-size: 1rem;
+    padding: 0.9rem 1.75rem;
+  }
+
+  nav li a:hover,
+  nav li a:focus {
+  font-size: 1.1rem;
+}
+}
+
 @media only screen and (max-width: 810px) {
   nav {
     margin-right: 0;
@@ -51,7 +78,6 @@ nav li a:focus {
     display: none;
   }
   
-
   nav ul {
     width: 100vw;
     justify-content: space-around;
