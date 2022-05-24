@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import Skills from "./Skills/Skills";
 import "./styles/styles.css";
 
-import image from "../../assets/images/image2.png";
-import leftBracket from "../../assets/images/left_bracket.png";
-import rightBracket from "../../assets/images/right_bracket.png";
+import decoIMG from "../../assets/images/decoImage.PNG";
+import leftBracket from "../../assets/images/left_bracket.PNG";
+import rightBracket from "../../assets/images/right_bracket.PNG";
 
 const About = () => {
   const [viewSkills, setViewSkills] = useState(false);
@@ -32,7 +32,7 @@ const About = () => {
         </a>
       </section>
 
-      {viewSkills ? <Skills /> : <img className="image" src={image} alt=""/>}
+      {viewSkills ? <Skills /> : <img className="image" src={decoIMG} alt=""/>}
     </article>
   );
 };

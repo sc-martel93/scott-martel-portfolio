@@ -15,8 +15,8 @@ import {
 
 import ChatBoxIMG from "../../assets/images/ChatBoxIMG.PNG";
 import eCommerceIMG from "../../assets/images/Ecommerce.PNG"
-import CryptoTrackerIMG from '../../assets/images/CryptoTracker.png';
-import PortfolioIMG from '../../assets/images/Portfolio.png';
+import CryptoTrackerIMG from '../../assets/images/CryptoTracker.PNG';
+import PortfolioIMG from '../../assets/images/Portfolio.PNG';
 import DrumScriptIMG from '../../assets/images/DrumScript.PNG';
 
 const Projects = () => {

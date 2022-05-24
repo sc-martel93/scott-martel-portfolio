@@ -1,8 +1,7 @@
 import React from "react";
 import "./styles/styles.css";
 
-import laptop from "../../assets/images/laptop.png";
-import workspace from "../../assets/images/workspace3.jpg";
+import workspace from "../../assets/images/workspace.jpg";
 
 const Home = () => {
   return (
