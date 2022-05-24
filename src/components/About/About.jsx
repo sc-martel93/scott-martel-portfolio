@@ -27,7 +27,7 @@ const About = () => {
         <button onClick={() => setViewSkills(!viewSkills)}>
           Skills
         </button>
-        <a href="/resume.pdf" target="_blank">
+        <a href="/Scott_Martel_Resume.pdf" target="_blank">
           Resume
         </a>
       </section>
