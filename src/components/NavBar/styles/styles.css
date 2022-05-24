@@ -42,10 +42,10 @@ nav li a:focus {
   box-shadow: 0.25rem 0.25rem #187498;
 }
 
+
 @media only screen and (max-width: 640px) {
   nav {
     margin-right: 0;
-    justify-items: flex-end;
   }
 
   nav img {
@@ -65,8 +65,8 @@ nav li a:focus {
 
   nav li a:hover,
   nav li a:focus {
-  font-size: 1.1rem;
-}
+    font-size: 1.1rem;
+  }
 }
 
 @media only screen and (max-width: 810px) {
@@ -86,4 +86,31 @@ nav li a:focus {
   nav li a {
     margin-right: 0;
   }
+}
+
+@media only screen and (max-width: 415px) {
+  nav {
+    margin-right: 0;
+  }
+
+  nav img {
+    display: none;
+  }
+  
+  nav ul {
+    width: 100vw;
+    justify-content: space-evenly;
+  }
+
+  nav li a {
+    margin-right: 0;
+    font-size: 0.9rem;
+    padding: 0.8rem 0.5rem;
+  }
+
+  nav li a:hover,
+  nav li a:focus {
+    font-size: 1rem;
+  }
+
 }
