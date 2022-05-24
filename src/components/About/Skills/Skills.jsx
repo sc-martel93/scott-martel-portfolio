@@ -43,7 +43,7 @@ const Skills = () => {
         </li>
         <li>
           <FontAwesomeIcon className="icon" icon={faServer} />
-          Heroku / Firebase
+          AWS / Firebase
         </li>
         <li>
           <FontAwesomeIcon className="icon" icon={faGitAlt} />
