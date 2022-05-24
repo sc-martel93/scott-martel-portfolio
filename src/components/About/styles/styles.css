@@ -81,6 +81,7 @@
   background-color: #121619;
   color: #fefae0;
   border: 3px solid #ecf39e;
+  box-shadow: 0.4rem 0.3rem rgba(24, 116, 152, .4);
   outline: none;
 }
 
@@ -89,6 +90,7 @@
   background-color: #121619;
   color: #fefae0;
   border: 3px solid #ecf39e;
+  box-shadow: 0.4rem 0.3rem rgba(24, 116, 152, .4);
   outline: none;
 }
 
