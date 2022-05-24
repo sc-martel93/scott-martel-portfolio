@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles/styles.css";
 
-import logo from "../../assets/images/logo.PNG";
+import logo from "../../assets/images/Logo.PNG";
 
 const NavBar = () => {
   return (
