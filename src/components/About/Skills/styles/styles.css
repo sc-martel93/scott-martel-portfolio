@@ -1,19 +1,18 @@
 .skills {
   font-size: 1.15rem;
   max-width: 800px;
-  width: 80%;
+  width: 90%;
   height: 250px;
   margin: 3rem auto;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
   align-items: center;
 }
 
 .skills ul {
   list-style-type: none;
   width: 100%;
-  margin-left: 3rem;
+  margin-left: 11%;
 }
 
 .skills li {
@@ -32,12 +31,12 @@
 @media only screen and (max-width: 640px) {
   .skills {
     font-size: 0.85rem;
-    margin: 1rem auto;
+    margin: 2rem auto;
     height: 200px;
   }
 
   .skills ul {
-    margin-left: 2rem;
+    margin-left: 8%;
   }
 }
 
@@ -50,10 +49,10 @@
 
 @media only screen and (max-width: 415px) {
   .skills {
-    width: 100%;
+    width: 90%;
   }
-  
+
   .skills ul {
-    margin-left: 1.5rem;
+    margin-left: 5%;
   }
 }
