@@ -12,6 +12,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  justify-content: space-evenly;
 }
 
 .bracket {
@@ -118,6 +119,11 @@
     width: 2rem;
   }
 
+  .buttons {
+    justify-content: space-evenly;
+    width: 100%;
+  }
+
   .buttons a {
     font-size: 1rem;
     padding:0.6rem 1.25rem;
@@ -159,5 +165,47 @@
     padding: 1rem 2.5rem;
     font-size: 1.45rem;
     width: 186px;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+
+  #about h3 {
+    font-size: 2.75rem;
+  }
+
+  #about p {
+    font-size: 1rem;
+    padding: 1rem 2rem;
+  }
+
+  .bracket {
+    height: 4rem;
+    width: 2rem;
+  }
+
+  .buttons a {
+    font-size: 1rem;
+  }
+
+  .buttons button {
+    font-size: 1rem;
+  }
+
+  .image {
+    height: 200px;
+    width: 100%;
+    margin: 2rem auto;
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  #about h3 {
+    font-size: 2.5rem;
+  }
+  
+  .bracket {
+    height: 3.7rem;
+    width: 1.7rem;
   }
 }
