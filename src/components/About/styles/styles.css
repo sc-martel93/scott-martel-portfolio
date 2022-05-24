@@ -2,6 +2,7 @@
   min-height: 100%;
   height: 100vh;
   background-color: #121619;
+  padding-top: 4rem;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -11,7 +12,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 4rem;
 }
 
 .bracket {
@@ -98,6 +98,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items: center;
 }
 
 @media only screen and (max-width: 500px) {
