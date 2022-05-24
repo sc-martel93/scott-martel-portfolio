@@ -1,6 +1,6 @@
 #about {
-  min-height: 100%;
   height: 100vh;
+  min-height: 100%;
   background-color: #121619;
   padding-top: 4rem;
   display: flex;
@@ -93,18 +93,14 @@
 .image {
   max-width: 1000px;
   width: 100%;
-  height: 250px;
   margin: 2rem auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
+ 
 }
 
 @media only screen and (max-width: 500px) {
-  .bracket {
-    height: 5rem;
-    width: 2rem;
+
+  #about {
+    padding-top: 2rem;
   }
 
   #about h3 {
@@ -113,11 +109,16 @@
 
   #about p {
     font-size: 1.15rem;
-    padding: 3rem;
+    padding: 1rem 2rem;
+  }
+
+  .bracket {
+    height: 5rem;
+    width: 2rem;
   }
 
   .image {
-    height: 250px;
+    
   }
 }
 
