@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import Skills from "./Skills/Skills";
 import "./styles/styles.css";
 
-import decoIMG from "../../assets/images/decoImage.PNG";
-import leftBracket from "../../assets/images/leftBracket.PNG";
-import rightBracket from "../../assets/images/rightBracket.PNG";
+import decoIMG from "../../assets/decoImage.PNG";
+import leftBracket from "../../assets/leftBracket.PNG";
+import rightBracket from "../../assets/rightBracket.PNG";
 
 const About = () => {
   const [viewSkills, setViewSkills] = useState(false);

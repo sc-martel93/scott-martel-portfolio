@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles/styles.css";
 
-import workspace from "../../assets/images/workspace.jpg";
+import workspace from "../../assets/workspace.jpg";
 
 const Home = () => {
   return (

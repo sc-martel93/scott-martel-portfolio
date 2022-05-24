@@ -13,11 +13,11 @@ import {
   faGoogle
 } from "@fortawesome/free-brands-svg-icons";
 
-import ChatBoxIMG from "../../assets/images/ChatBoxIMG.PNG";
-import eCommerceIMG from "../../assets/images/Ecommerce.PNG"
-import CryptoTrackerIMG from '../../assets/images/CryptoTrackerIMG.PNG';
-import PortfolioIMG from '../../assets/images/Portfolio.PNG';
-import DrumScriptIMG from '../../assets/images/DrumScript.PNG';
+import ChatBoxIMG from "../../assets/ChatBoxIMG.PNG";
+import eCommerceIMG from "../../assets/Ecommerce.PNG"
+import CryptoTrackerIMG from '../../assets/CryptoTrackerIMG.PNG';
+import PortfolioIMG from '../../assets/Portfolio.PNG';
+import DrumScriptIMG from '../../assets/DrumScript.PNG';
 
 const Projects = () => {
   return (
