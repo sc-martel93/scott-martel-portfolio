@@ -14,15 +14,16 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 import ChatBoxIMG from "../../assets/images/ChatBoxIMG.PNG";
-import CryptoTracker from '../../assets/images/CryptoTracker.png';
-import PortfolioImg from '../../assets/images/Portfolio.png';
+import eCommerceIMG from "../../assets/images/Ecommerce.PNG"
+import CryptoTrackerIMG from '../../assets/images/CryptoTracker.png';
+import PortfolioIMG from '../../assets/images/Portfolio.png';
 
 const Projects = () => {
   return (
     <section id="projects" className="projects">
       <h3>Projects</h3>
       <section className="cards">
-        <article className="card">
+        <article id="chatbox" className="card">
           <img src={ChatBoxIMG} alt="chat box" />
           <section className="description">
             <h4>Chat Box</h4>
@@ -77,8 +78,61 @@ const Projects = () => {
           </section>
         </article>
 
-        <article className="card">
-          <img src={CryptoTracker} alt="Crypto tracker" />
+        <article id="ecommerce" className="card">
+          <img src={eCommerceIMG} alt="chat box" />
+          <section className="description">
+            <h4>Vintage eCommerce</h4>
+            <p>
+              Fully functional eCommerce web app using Material UI, commerce js API 
+              and stripe api for payment processing
+            </p>
+            <section className="tech">
+              <ul>
+                <li>
+                 <FontAwesomeIcon className="icon" icon={faReact} />
+                  React JS
+                </li>
+                <li>
+                  <FontAwesomeIcon className="icon" icon={faCss3} />
+                  CSS
+                </li>
+                <li>
+                  <FontAwesomeIcon className="icon" icon={faNpm} />
+                  npm
+                </li>
+               </ul>
+               <ul>
+                <li>
+                  <FontAwesomeIcon className="icon" icon={faGoogle} />
+                  Firebase
+                </li>
+                <li>
+                  <FontAwesomeIcon className="icon" icon={faGitAlt} />
+                  Git
+                </li>
+              </ul>
+            </section>
+            <section className="project-buttons">
+              <a
+                href="https://vintage-ecom.web.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Live
+              </a>
+              <a
+                href="https://github.com/sc-martel93/ecommerce"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Code
+              </a>
+          </section>
+          </section>
+        </article>
+
+        <article id="crypto" className="card">
+          <img src={CryptoTrackerIMG} alt="Crypto tracker" />
           <section className="description">
             <h4>Crypto Tracker</h4>
             <p>
@@ -127,8 +181,8 @@ const Projects = () => {
           </section>
         </article>
 
-        <article className="card">
-          <img src={PortfolioImg} alt="Crypto tracker" />
+        <article id="portfolio" className="card">
+          <img src={PortfolioIMG} alt="Crypto tracker" />
           <section className="description">
             <h4>My Portfolio Page</h4>
             <p>
