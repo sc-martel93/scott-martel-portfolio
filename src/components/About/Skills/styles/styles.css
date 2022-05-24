@@ -2,10 +2,12 @@
   font-size: 1.15rem;
   max-width: 800px;
   width: 80%;
-  margin: 0 auto;
+  height: 250px;
+  margin: 3rem auto;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items: center;
 }
 
 .skills ul {
