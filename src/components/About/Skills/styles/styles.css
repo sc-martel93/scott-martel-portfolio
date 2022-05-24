@@ -22,10 +22,11 @@
   margin-right: 0.5rem;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 640px) {
   .skills {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     margin: 2rem auto;
+    height: 200px;
   }
 }
 
