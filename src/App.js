@@ -4,7 +4,7 @@ import ContactForm from "./components/ContactForm/ContactForm";
 import Footer from "./components/Footer/Footer";
 import Home from "./components/Home/Home";
 import NavBar from "./components/NavBar/NavBar";
-import Projects from "./components/Projects/Projects";
+import Projects from "./components/Projects/Projects.jsx";
 
 function App() {
   return (
