@@ -1,7 +1,5 @@
 import {
-  faHtml5,
   faCss3,
-  faJsSquare,
   faReact,
   faNodeJs,
   faAws,
@@ -9,14 +7,51 @@ import {
   faGitAlt,
   faGoogle
 } from "@fortawesome/free-brands-svg-icons";
+import { faDatabase } from "@fortawesome/free-solid-svg-icons"
 
 import ChatBoxIMG from "../../assets/ChatBoxIMG.PNG";
 import eCommerceIMG from "../../assets/Ecommerce.PNG"
 import CryptoTrackerIMG from '../../assets/CryptoTrackerIMG.PNG';
 import PortfolioIMG from '../../assets/Portfolio.PNG';
-import DrumScriptIMG from '../../assets/DrumScript.PNG';
+import RecipeBookIMG from '../../assets/RecipeBookIMG.PNG';
 
-export const projects =[ 
+export const projects =[
+  {
+    name: "Recipe Book",
+    imageSrc: RecipeBookIMG,
+    imgAlt: "Recipe book home page",
+    description: "Recipe Book simplifies the storage and sharing of recipes between users allowing users to upload their own recipes and explore the recipes of others.",
+    techL: [
+      {
+        name: "React" ,
+        icon: faReact
+      },
+      {
+        name: "Tailwind" ,
+        icon: faCss3
+      },
+      {
+        name: "Node JS" ,
+        icon: faNodeJs
+      }
+    ],
+    techR: [
+      {
+        name: "MySQL" ,
+        icon: faDatabase
+      },
+      {
+        name: "AWS",
+        icon: faAws
+      },
+      {
+        name: "Git" ,
+        icon: faGitAlt
+      },
+    ],
+    liveUrl: "https://main.d4u3ts97tb3ea.amplifyapp.com/",
+    codeUrl: "https://github.com/sc-martel93/recipe-book"
+  }, 
   {
     name: "Chat Box",
     imageSrc: ChatBoxIMG,
@@ -108,34 +143,6 @@ export const projects =[
     ],
     liveUrl: "https://sc-martel93.github.io/Crypto-Tracker/",
     codeUrl: "https://github.com/sc-martel93/Crypto-Tracker/tree/master"
-  },
-  {
-    name: "Drum Script",
-    imageSrc: DrumScriptIMG,
-    imgAlt: "Drum Script home page",
-    description: "Drum Script is a simple drum pad web application created using HTML, CSS and Javascript.",
-    techL: [
-      {
-        name: "HTML" ,
-        icon: faHtml5
-      },
-      {
-        name: "CSS" ,
-        icon: faCss3
-      },
-    ],
-    techR: [
-      {
-        name: "Javascript" ,
-        icon: faJsSquare
-      },
-      {
-        name: "Git" ,
-        icon: faGitAlt
-      },
-    ],
-    liveUrl: "https://drum-script.web.app/",
-    codeUrl: "https://github.com/sc-martel93/js-drumk-kit"
   },
   {
     name: "My Portfolio Page",
