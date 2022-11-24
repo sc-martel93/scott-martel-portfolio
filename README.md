@@ -6,7 +6,7 @@ Welcome, to my portfolio web page which was completely designed and developed by
 
 This web page is hosted using AWS amplify
 
-https://main.ddpf6bmb59zbu.amplifyapp.com/
+https://www.scottadev.com 
 
 # Contact Scott
 email: scott.martel06@qc.quincycollege.edu
