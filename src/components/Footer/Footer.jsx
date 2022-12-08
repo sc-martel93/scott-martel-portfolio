@@ -15,7 +15,7 @@ const Footer = () => {
       <ul>
         <li>
           <a
-            href="mailto:sc.martel93@gmail.com"
+            href="mailto:scmartel2022@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
           >
