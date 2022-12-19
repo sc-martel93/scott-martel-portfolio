@@ -173,7 +173,7 @@ export const projects =[
         icon: faGitAlt
       },
     ],
-    liveUrl: "https://main.ddpf6bmb59zbu.amplifyapp.com/",
+    liveUrl: "https://www.scottadev.com",
     codeUrl: "https://github.com/sc-martel93/scott-martel-portfolio"
   },
 ]
