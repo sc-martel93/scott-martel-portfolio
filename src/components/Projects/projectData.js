@@ -56,7 +56,7 @@ export const projects =[
     name: "Chat Box",
     imageSrc: ChatBoxIMG,
     imgAlt: "chat box home page",
-    description: "An online chat room application that includes user authentication through google and allows the users to communicate through text.",
+    description: "An online chat room application that includes user authentication through google and anonymous login that allows the users to communicate through text.",
     techL: [
       {
         name: "React JS" ,
