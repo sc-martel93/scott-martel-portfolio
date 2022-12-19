@@ -88,7 +88,7 @@ export const projects =[
     name: "Vintage eCommerce",
     imageSrc: eCommerceIMG,
     imgAlt: "Vintage ecommerce home page",
-    description: "Fully functional eCommerce web app using Material UI, commerce js API and stripe api for payment processing",
+    description: "Fully functional eCommerce web app where users can buy cool vintage items. Created using Material UI, commerce js API and stripe api for payment processing.",
     techL: [
       {
         name: "React JS" ,
@@ -120,7 +120,7 @@ export const projects =[
     name: "Crypto Tracker",
     imageSrc: CryptoTrackerIMG,
     imgAlt: "Crypto tracker home page",
-    description: "Crypto tracker is an app created using React js and the coin gecko API that tracks the current price of popular crypto currencies.",
+    description: "Crypto tracker is an app that tracks the current price of popular crypto currencies, created using React js and the coin gecko API.",
     techL: [
       {
         name: "React JS" ,
@@ -148,7 +148,7 @@ export const projects =[
     name: "My Portfolio Page",
     imageSrc: PortfolioIMG,
     imgAlt: "Scott's portfolio home page",
-    description: " I designed my portfolio web page using Figma and implemented the page using React JS and CSS. For the contact form I used EmailJS to handle sending the message to me via email.",
+    description: "A simple web page created to showcase my portfolio, thanks for visting!",
     techL: [
       {
         name: "React JS" ,
