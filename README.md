@@ -9,4 +9,4 @@ This web page is hosted using AWS amplify
 https://www.scottadev.com 
 
 # Contact Scott
-email: scott.martel06@qc.quincycollege.edu
+email: scmartel2022@gmail.com
