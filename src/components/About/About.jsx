@@ -17,7 +17,7 @@ const About = () => {
         <img className="bracket" src={rightBracket} alt="" />
       </section>
       <p>
-        My name is Scott and I am a recent computer science graduate with a passion for developing innovative and user-friendly web applications. With experience in both front-end and back-end technologies, I am a skilled full stack web developer specializing in Java/Spring Boot, React, AWS, Node.js, Javascript, CSS, and HTML. My expertise in these technologies, combined with my strong problem-solving skills and attention to detail, has allowed me to deliver high-quality software solutions to clients. I am eager to bring my skills and knowledge to a dynamic and fast-paced work environment where I can continuously learn and grow as a developer.
+       I'm Scott, a full stack web developer with expertise in Java/Spring, React, Node.js, Javascript/Typescript, and AWS. I deliver high-quality, scalable web solutions by combining technical expertise with a passion for excellence. Let's create something amazing together.
       </p>
 
       <section className="buttons">
