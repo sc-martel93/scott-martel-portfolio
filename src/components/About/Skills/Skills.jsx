@@ -21,7 +21,7 @@ const Skills = () => {
         </li>
         <li>
           <FontAwesomeIcon className="icon" icon={faJsSquare} />
-          Javascript
+          Javascript / Typescript
         </li>
         <li>
           <FontAwesomeIcon className="icon" icon={faReact} />
