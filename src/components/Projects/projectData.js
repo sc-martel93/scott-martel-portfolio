@@ -51,38 +51,6 @@ export const projects =[
     ],
     liveUrl: "https://main.d4u3ts97tb3ea.amplifyapp.com/",
     codeUrl: "https://github.com/sc-martel93/recipe-book"
-  }, 
-  {
-    name: "Chat Box",
-    imageSrc: ChatBoxIMG,
-    imgAlt: "chat box home page",
-    description: "An online chat room application that includes user authentication through google and anonymous login that allows the users to communicate through text.",
-    techL: [
-      {
-        name: "React JS" ,
-        icon: faReact
-      },
-      {
-        name: "CSS" ,
-        icon: faCss3
-      },
-      {
-        name: "npm" ,
-        icon: faNpm
-      },
-    ],
-    techR: [
-      {
-        name: "Firebase" ,
-        icon: faGoogle
-      },
-      {
-        name: "Git" ,
-        icon: faGitAlt
-      },
-    ],
-    liveUrl: "https://chat-app-cd6c7.web.app/",
-    codeUrl: "https://github.com/sc-martel93/chat-app/"
   },
   {
     name: "Vintage eCommerce",
