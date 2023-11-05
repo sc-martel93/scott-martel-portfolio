@@ -1,56 +1,42 @@
 import {
   faCss3,
   faReact,
-  faNodeJs,
   faAws,
   faNpm,
   faGitAlt,
-  faGoogle
+  faGoogle, 
 } from "@fortawesome/free-brands-svg-icons";
-import { faDatabase } from "@fortawesome/free-solid-svg-icons"
+import { faC, faLemon } from "@fortawesome/free-solid-svg-icons";
 
-import ChatBoxIMG from "../../assets/ChatBoxIMG.PNG";
 import eCommerceIMG from "../../assets/Ecommerce.PNG"
 import CryptoTrackerIMG from '../../assets/CryptoTrackerIMG.PNG';
 import PortfolioIMG from '../../assets/Portfolio.PNG';
-import RecipeBookIMG from '../../assets/RecipeBookIMG.PNG';
+import BandEQ from '../../assets/3BandEQ.png'
 
 export const projects =[
   {
-    name: "Recipe Book",
-    imageSrc: RecipeBookIMG,
-    imgAlt: "Recipe book home page",
-    description: "Recipe Book simplifies the storage and sharing of recipes between users allowing users to upload their own recipes and explore the recipes of others.",
+    name: "Three Band Equalizer",
+    imageSrc: BandEQ,
+    imgAlt: "3-Band-Equalizer",
+    description: "Three Band Equalizer is a user-friendly, C++ and JUCE framework-based audio plugin with real-time feedback, suitable for professionals and beginners in various digital audio workstations.",
     techL: [
       {
-        name: "React" ,
-        icon: faReact
+        name: "C++" ,
+        icon: faC
       },
       {
-        name: "Tailwind" ,
-        icon: faCss3
+        name: "JUCE" ,
+        icon: faLemon
       },
-      {
-        name: "Node JS" ,
-        icon: faNodeJs
-      }
     ],
     techR: [
-      {
-        name: "MySQL" ,
-        icon: faDatabase
-      },
-      {
-        name: "AWS",
-        icon: faAws
-      },
       {
         name: "Git" ,
         icon: faGitAlt
       },
     ],
-    liveUrl: "https://main.d4u3ts97tb3ea.amplifyapp.com/",
-    codeUrl: "https://github.com/sc-martel93/recipe-book"
+    liveUrl: "https://drive.google.com/file/d/1SWQrIKPlvY_5l9XOh7b7zUtdjvC2RvU0/view?usp=sharing",
+    codeUrl: "https://github.com/sc-martel93/Three-Band-EQ"
   },
   {
     name: "Vintage eCommerce",
@@ -65,10 +51,6 @@ export const projects =[
       {
         name: "CSS" ,
         icon: faCss3
-      },
-      {
-        name: "npm" ,
-        icon: faNpm
       },
     ],
     techR: [
@@ -101,10 +83,6 @@ export const projects =[
     ],
     techR: [
       {
-        name: "npm" ,
-        icon: faNpm
-      },
-      {
         name: "Git" ,
         icon: faGitAlt
       },
@@ -125,10 +103,6 @@ export const projects =[
       {
         name: "CSS" ,
         icon: faCss3
-      },
-      {
-        name: "npm" ,
-        icon: faNpm
       },
     ],
     techR: [
