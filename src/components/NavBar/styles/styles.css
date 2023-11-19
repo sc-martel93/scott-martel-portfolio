@@ -31,14 +31,15 @@ nav li a {
   margin-right: 2.5rem;
   border-radius: 0.5rem;
   letter-spacing: 0.15rem;
+  transition: transform 0.3s ease; 
 }
 
 nav li a:hover,
 nav li a:focus {
+  transform: scale(1.1); 
   color: #ecf39e;
   background-color: rgba(18,22,25,0.5);
   outline: none;
-  font-size: 1.25rem;
   box-shadow: 0.25rem 0.25rem #187498;
 }
 
