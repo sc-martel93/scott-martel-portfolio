@@ -76,6 +76,7 @@
     border-radius: 0.5rem;
     border: 3px solid #187498;
     letter-spacing: 0.08rem;
+    transition: all 0.3s ease; 
 }
 
 .contact_form button:hover,
@@ -84,7 +85,7 @@
   color: #121619;
   box-shadow: 0.5rem 0.5rem #121619;
   border: 3px solid #ecf39e;
-  outline: none;   
+  outline: none; 
   cursor: pointer;     
 }
 
