@@ -91,15 +91,14 @@
   border-radius: 0.5rem;
   text-decoration: none;
   letter-spacing: 0.08rem;
+  transition: all 0.3s ease; 
 }
 
 .project-buttons a:hover,
 .project-buttons a:focus {
   background-color: #ecf39e;
   color: #121619;
-  box-shadow: 0.5rem 0.5rem #121619;
-  border: none;
-  outline: none;
+  box-shadow: 0.5rem 0.5rem #121619, inset 0 0 0 3px #121619;
 }
 
 @media screen and (max-width: 375px) {
