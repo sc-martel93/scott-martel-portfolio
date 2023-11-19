@@ -31,6 +31,7 @@ hr {
 }
 
 .home h2 {
+  font-family: monospace;
   font-size: 2.25rem;
   margin-left: 4rem;
   color: rgba(247, 246, 241, 255);
@@ -38,11 +39,11 @@ hr {
   /* overflow: visible; */
   white-space: nowrap;
   color: #fefae0;
-  letter-spacing: 0.15rem;
+  /* letter-spacing: 0.15rem; */
 }
 
 /*  For animation */
-.home h2 {
+/* .home h2 {
     font-family: monospace;
     width: 14.5ch;
     border-right: 3px solid;
@@ -52,7 +53,7 @@ hr {
     animation: typing 2s steps(13), blink 0.5s step-end infinite alternate;
     animation-delay: 1s;
     animation-fill-mode: both;
-}
+} */
 
 .lastDev {
   font-family: monospace;
@@ -86,9 +87,9 @@ hr {
   }
 
   .home h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-left: 0;
-    width: 14.75ch;
+    /* width: 14.75ch; */
   }
 
   hr {
@@ -120,8 +121,8 @@ hr {
 
   .home h2 {
     font-size: 3rem;
-    width: 14.25ch;
-    margin-left: 45%;
+    /* width: 14.25ch; */
+    margin-left: 45%; 
   }
 
   hr {

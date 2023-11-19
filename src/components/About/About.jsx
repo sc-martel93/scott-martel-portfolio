@@ -17,7 +17,7 @@ const About = () => {
         <img className="bracket" src={rightBracket} alt="" />
       </section>
       <p>
-       I'm Scott, a full stack web developer with expertise in Java/Spring, React, Node.js, Javascript/Typescript, and AWS cloud services. I deliver high-quality, scalable web solutions by combining technical expertise with a passion for excellence. Let's create something amazing together.
+       I'm Scott, a software developer with expertise in Java/Spring, Javascript, React, Node.js, and AWS cloud services. I deliver high-quality, scalable web solutions by combining technical expertise with a passion for excellence. Let's create something amazing together.
       </p>
 
       <section className="buttons">

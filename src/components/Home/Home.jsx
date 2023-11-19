@@ -11,7 +11,7 @@ const Home = () => {
         <h1 className="last">Martel</h1>
         <hr />
         <h2>
-          Web <span className="lastDev">Developer</span>
+          Software <span className="lastDev">Developer</span>
         </h2>
       </aside>
       <img className="background" src={workspace} alt="" />
