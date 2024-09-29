@@ -6,7 +6,7 @@ Welcome, to my portfolio web page which was completely designed and developed by
 
 This web page is hosted using AWS amplify
 
-https://www.scottadev.com 
+https://www.scott-martel.com/
 
 # Contact Scott
 email: scmartel2022@gmail.com
